@@ -233,55 +233,70 @@ function drawPage(): void {
   drawTextCentered(512, 28, "World News in One Day", 2, GREY);
   drawTextCentered(512, 54, "SUNDAY 22 NOVEMBER 2026", 6, INK);
   hRule(28, 104, 968, 3, INK);
-  drawTextCentered(512, 114, "Antalya \u2022 Bahrain \u2022 Kyiv \u2022 New Delhi \u2022 Wellington", 2, GREY);
+  drawTextCentered(512, 114, "Antalya \u2022 Cikande \u2022 Tehran \u2022 Wellington \u2022 Turin", 2, GREY);
   hRule(28, 134, 968, 2, INK);
   hRule(28, 138, 968, 2, INK);
 
   // Lead story (left)
   drawText(28, 152, "LEAD — CLIMATE", 2, RED);
-  drawText(28, 180, "COP31 NEARS", 5, INK);
-  drawText(28, 228, "FINAL DEAL", 5, INK);
-  drawPara(28, 288, "Talks run past Friday's deadline as the Antalya package goes to a vote.", 2, 556, INK, 18);
+  drawText(28, 180, "COP31 COLLAPSES", 5, INK);
+  drawText(28, 228, "NO DEAL IN ANTALYA", 5, INK);
+  drawPara(28, 282, "After two days in overtime, the closing plenary rejects the final draft. No consensus, no deal adopted.", 2, 556, INK, 18);
   drawPara(
-    28, 330,
-    "After running past Friday's deadline into early Sunday, Presidents Murat Kurum (Turkey) and Australia announced a new consensus package late on Saturday night. Nearly 200 delegations have until 0300 GMT on Sunday to object, with the approval session set for 0600 GMT.",
+    28, 346,
+    "COP31 president Murat Kurum: \"There is no consensus on this document. Therefore, these decisions have not been adopted.\"",
     2, 556, INK, 18,
   );
-  globe(520, 502, 34);
-  drawTextCentered(520, 544, "ANTALYA", 1, GREY);
+  drawPara(
+    28, 410,
+    "The draft never mentioned fossil fuels, oil, coal or phase-out. It was the first COP text to admit peak warming will exceed 1.5 degrees, and set a 35% electrification goal by 2035.",
+    2, 556, INK, 18,
+  );
+  globe(520, 520, 30);
+  drawTextCentered(520, 556, "ANTALYA", 1, GREY);
 
   // Divider between lead and right column
   vRule(592, 150, 410, 2, INK);
 
-  // Right column: Iran
-  drawText(608, 152, "MIDDLE EAST", 2, RED);
-  drawText(608, 176, "IRAN HITS US BASES", 3, INK);
-  drawText(608, 200, "IN BAHRAIN", 3, INK);
+  // Right column: Indonesia
+  drawText(608, 152, "INDONESIA", 2, RED);
+  drawText(608, 174, "CANDY FACTORY FIRE", 3, INK);
+  drawText(608, 198, "3 DEAD, 36 MISSING", 3, INK);
   drawPara(
-    608, 232,
-    "Guards struck Sheikh Isa Air Base and the naval facility at Juffair, home of the US 5th Fleet. Sirens sounded as a civilian plant caught fire. Fourth attack in nine days.",
+    608, 226,
+    "Fire at the Fonusa Agung Mulia candy factory in Cikande: 3 killed, 36 missing.",
     2, 388, INK, 18,
   );
-  hRule(608, 348, 388, 2, INK);
+  hRule(608, 294, 388, 2, INK);
 
-  // Right column: Ukraine
-  drawText(608, 362, "UKRAINE", 2, RED);
-  drawText(608, 386, "DRONES HIT RUSSIAN", 3, INK);
-  drawText(608, 410, "SHIP IN BALTIC", 3, INK);
+  // Right column: Iran / Gulf
+  drawText(608, 308, "IRAN / GULF", 2, RED);
+  drawText(608, 330, "TRUMP SEEKS", 3, INK);
+  drawText(608, 354, "'PERMANENT' DEAL", 3, INK);
   drawPara(
-    608, 442,
-    "Drones struck the cargo ship Sparta II in the Gulf of Finland. Zelensky proposed local ceasefires to evacuate civilians from 15 Dnipro settlements.",
+    608, 382,
+    "Araghchi: reopening Hormuz 'not difficult' if the US accepts Tehran's terms.",
+    2, 388, INK, 18,
+  );
+  hRule(608, 448, 388, 2, INK);
+
+  // Right column: United States
+  drawText(608, 462, "UNITED STATES", 2, RED);
+  drawText(608, 484, "FBI HACK CONFIRMED", 3, INK);
+  drawPara(
+    608, 508,
+    "The FBI database hack is confirmed; the president sees a 'possible positive spin'.",
     2, 388, INK, 18,
   );
 
   // Bottom band: 3 x 2 panels
   const panels: { x: number; y: number; label: string; head: string; body: string }[] = [
-    { x: 28, y: 575, label: "DENMARK", head: "Russia accused of assassination plot", body: "Denmark says Moscow plotted to kill a US-Ukrainian rapper on Danish soil." },
-    { x: 356, y: 575, label: "UNITED STATES", head: "FBI probes hack of crime database", body: "Agents investigate an apparent breach of the NCIC criminal database." },
-    { x: 684, y: 575, label: "NIGERIA", head: "24 dead as boat capsizes", body: "Vessel carrying mourners to a funeral overturned." },
-    { x: 28, y: 782, label: "ESTONIA", head: "Estonia to shut border with Russia", body: "Moscow calls the move a new Iron Curtain." },
-    { x: 356, y: 782, label: "INDIA — CYCLONE AKVAN", head: "Akvan aftermath hits Ranchi", body: "Flights cancelled at Ranchi airport as the cyclone passes. Mass evacuations on India's east coast." },
-    { x: 684, y: 782, label: "SPORT", head: "Cummins keeps Test captaincy", body: "Pat Cummins retains the Australia Test captaincy with unanimous support. India face New Zealand in windy Wellington." },
+    { x: 28, y: 575, label: "SPORT", head: "India pile up 720/9 in Wellington", body: "A 352-run lead over New Zealand in the first Test. Leeds beat Chelsea 4-1, first win at the Bridge since 1999." },
+    { x: 356, y: 575, label: "TECHNOLOGY", head: "Amazon nears $7.5B deal for AI start-up Decart", body: "IBM unveils the 520-qubit 'Nighthawk r3' quantum chip." },
+    { x: 684, y: 575, label: "NEPAL", head: "Nepal PM begins state visit to India", body: "Balendra Shah starts a two-day state visit to New Delhi." },
+    { x: 28, y: 782, label: "GAZA", head: "Israeli strikes continue in Gaza", body: "An aid vehicle is hit as strikes continue across the Strip." },
+    { x: 356, y: 782, label: "TENNIS — ATP FINALS", head: "Alcaraz faces Zverev in ATP Finals title match", body: "The title match in Turin is tonight. No result yet at press time." },
+    { x: 684, y: 782, label: "ESTONIA", head: "Estonia to shut border with Russia", body: "Moscow calls the move a new Iron Curtain. Cyclone Akvan aftermath: flights cancelled at Ranchi airport." },
   ];
   for (const p of panels) {
     box(p.x, p.y, 312, 193, INK);

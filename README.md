@@ -18,27 +18,33 @@ Masthead: **SUNDAY 22 NOVEMBER 2026**.
 
 ## What the front page covers
 
-- **Lead — COP31, Antalya:** climate talks run past Friday's deadline into
-  early Sunday; Presidents Murat Kurum (Turkey) and Australia announced a new
-  consensus package late Saturday night. Nearly 200 delegations have until
-  0300 GMT Sunday to object; approval session set for 0600 GMT.
-- **Middle East:** Iran's Revolutionary Guards hit two US bases in Bahrain —
-  Sheikh Isa Air Base and the naval facility at Juffair (US Navy 5th Fleet HQ).
-  Air-raid sirens sounded; a civilian facility caught fire.
-- **Ukraine:** Ukrainian drones struck the Russian cargo ship Sparta II in the
-  Gulf of Finland; Zelensky proposed localised ceasefires to evacuate civilians
-  from 15 settlements along the Dnipro.
-- **Denmark:** Denmark accuses Russia of plotting to assassinate a
-  US-Ukrainian rapper on Danish soil.
-- **United States:** the FBI is investigating an apparent hack of its NCIC
-  criminal database.
-- **Nigeria:** 24 dead when a boat capsized carrying mourners to a funeral.
+- **Lead — COP31 collapses, Antalya:** after two days in overtime, the
+  closing plenary on Sunday rejects the final draft — no consensus, no deal
+  adopted. COP31 president Murat Kurum: "There is no consensus on this
+  document. Therefore, these decisions have not been adopted." The draft never
+  mentioned fossil fuels, oil, coal or phase-out; it was the first COP text to
+  admit peak warming will exceed 1.5 degrees, and set a 35% electrification
+  goal by 2035.
+- **Indonesia:** fire at the Fonusa Agung Mulia candy factory in Cikande,
+  Banten — at least 3 killed, 36 missing.
+- **Iran / Gulf:** Trump calls for a 'permanent' deal to block Iran's nuclear
+  ambitions; foreign minister Abbas Araghchi says reopening the Strait of
+  Hormuz is "not difficult" if the US accepts Tehran's conditions.
+- **United States:** Trump confirms the FBI's NCIC criminal-database breach
+  and sees a "possible positive spin".
+- **Sport:** India declare 720/9 against New Zealand in the first Test in
+  Wellington, a 352-run lead; Leeds beat Chelsea 4-1 at Stamford Bridge,
+  their first win there since 1999.
+- **Technology:** Amazon nears a $7.5B deal for Israeli AI start-up Decart;
+  IBM unveils the 520-qubit 'Nighthawk r3' quantum chip.
+- **Nepal:** prime minister Balendra Shah begins a two-day state visit to
+  India.
+- **Gaza:** Israeli strikes continue; an aid vehicle is hit.
+- **Tennis — ATP Finals:** Alcaraz faces Zverev in the title match in Turin
+  tonight; no result yet at press time.
 - **Estonia:** Estonia to close its border with Russia; Moscow calls it a
-  "new Iron Curtain".
-- **India — Cyclone Akvan:** flights cancelled at Ranchi airport as the
-  cyclone passes; mass evacuations on India's east coast.
-- **Sport:** Pat Cummins keeps the Cricket Australia Test captaincy with
-  unanimous support; India face New Zealand in windy Wellington.
+  "new Iron Curtain". Cyclone Akvan aftermath: flights cancelled at Ranchi
+  airport.
 
 All stories happened or were first reported on Sunday 22 November 2026.
 Sources: Reuters and wire reports.
